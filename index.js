@@ -1,6 +1,6 @@
 const express = require("express");
 const fs = require("fs");
-const users = require("./MOCK_DATA.json"); // Correct path here
+const users = require("./mock_data.json"); // Correct path here
 const contactus = require("./contact_requests.json"); // For storing contact requests
 
 const app = express();
