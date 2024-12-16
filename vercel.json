@@ -6,8 +6,10 @@
             "use": "@vercel/node"
         }
     ],
-    "includeFiles": [
-        "MOCK_DATA.json",
-        "contact_requests.json"
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "index.js"
+        }
     ]
 }
